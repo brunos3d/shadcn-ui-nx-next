@@ -1,0 +1,10 @@
+// This file exist only to make the shadcn-ui cli happy ¯\_(ツ)_/¯
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@libs/shadcn-ui": ["libs/shadcn-ui/src/index.ts"],
+      "@libs/shadcn-ui/*": ["libs/shadcn-ui/src/*"]
+    }
+  }
+}
