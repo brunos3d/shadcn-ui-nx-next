@@ -23,10 +23,10 @@ npm i lucide-react
 
 Copy the following files from this repo to your project:
 
-- `components.json`
-- `tsconfig.json`
-- `tsconfig.base.json`
-- `apps/next-app/tailwind.config.js`
+- [`components.json`](https://github.com/brunos3d/shadcn-ui-nx-next/blob/main/components.json)
+- [`tsconfig.json`](https://github.com/brunos3d/shadcn-ui-nx-next/blob/main/tsconfig.json)
+- [`tsconfig.base.json`](https://github.com/brunos3d/shadcn-ui-nx-next/blob/main/tsconfig.base.json)
+- [`apps/next-app/tailwind.config.js`](https://github.com/brunos3d/shadcn-ui-nx-next/blob/main/apps/next-app/tailwind.config.js)
 
 # Installing new shadcn/ui components
 
