@@ -27,3 +27,23 @@ Copy the following files from this repo to your project:
 - `tsconfig.json`
 - `tsconfig.base.json`
 - `apps/next-app/tailwind.config.js`
+
+# Installing new shadcn/ui components
+
+After following the installation steps above, installing [shadcn/ui components](https://ui.shadcn.com/docs/components) is a simple task and requires the following steps
+
+```bash
+npx shadcn-ui@latest add <component> # e.g button
+```
+
+Add/Export the new component to `libs/shadcn-ui/src/index.ts`
+
+```bash
+export * from './components/ui/command';
+```
+
+Now, you're able to use your component on your Nx Project
+
+```bash
+import { Button } from '@libs/shadcn-ui';
+```
