@@ -47,3 +47,4 @@ Now, you're able to use your component on your Nx Project
 ```bash
 import { Button } from '@libs/shadcn-ui';
 ```
+
