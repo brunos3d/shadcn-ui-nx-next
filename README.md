@@ -13,8 +13,11 @@ npx nx serve next-app
 Commands to generate the project:
 
 ```bash
-npx create-nx-workspace@latest
-npm i -D @nx/next
+npx create-nx-workspace@latest workspacename
+cd workspacename
+npm i -D @nx/next @nx/react
+nx g @nx/next:app next-app # use "tailwind" as style options
+nx g @nx/react:library shadcn-ui # none for all options
 nx g @nx/next:setup-tailwind --project=next-app
 npm i tailwindcss-animate class-variance-authority clsx tailwind-merge
 nx g @nx/next:setup-tailwind --project=next-app
